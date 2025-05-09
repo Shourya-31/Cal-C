@@ -112,6 +112,8 @@ class MainActivity : AppCompatActivity() {
         if (resultTextView.text.isEmpty()) {
             resultTextView.text = "0"
             isNewOperation = true
+              val context = null
+                Toast.makeText(this, "Invalid Operation", Toast.LENGTH_SHORT).show()
         }
     }
 
